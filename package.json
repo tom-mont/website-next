@@ -5,7 +5,7 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc",
-    "prebuild": "npx nvm install 18.17.0 && npx nvm use 18.17.0"
+    "prebuild": "nvm install 18.17.0 && nvm use 18.17.0"
   },
   "dependencies": {
     "classnames": "^2.3.1",
