@@ -1,13 +1,13 @@
 ---
 title: "Wireshark Packet Capture"
 excerpt: "A first hack at networking"
-coverImage: "/assets/blog/dynamic-routing/cover.jpg"
+coverImage: "/assets/blog/wireshark/cover.jpg"
 date: "2020-03-16T05:35:07.322Z"
 author:
   name: Tom Montgomery
   picture: "/assets/blog/authors/jj.jpeg"
 ogImage:
-  url: "/assets/blog/dynamic-routing/cover.jpg"
+  url: "/assets/blog/wireshark/cover.jpg"
 ---
 
 I have begun venturing into the exciting world of cyber security, and have recently received my COMPTIA Network+ certification. Of course, there is no better way to get to know something than through experience and hence I wanted to go through a packet capture in order to test my understanding of networking (and perhaps teach the reader a thing or two).
@@ -17,6 +17,8 @@ Click Enter:
 Immediately the logs begin to fill and I click Stop after about three seconds, still enough time for about 30 packets to be captured. I was a little surprised by this as I did not have any browser tabs open, or any other applications for that matter. I selected a packet at random to analyse.
 
 Let's go through the packet column-by-column to see what we're working with.
+
+![Wireshark row](/assets/blog/wireshark/row.png)
 
 ## No.
 
