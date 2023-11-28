@@ -7,14 +7,7 @@ const Intro = () => {
         Tom Montgomery's Blog
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        A statically generated blog example using{" "}
-        <a
-          href="https://nextjs.org/"
-          className="underline hover:text-blue-600 duration-200 transition-colors"
-        >
-          Next.js
-        </a>{" "}
-        and {CMS_NAME}.
+        A look into some brief learnings and musings.
       </h4>
     </section>
   );

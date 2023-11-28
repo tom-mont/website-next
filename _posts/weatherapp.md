@@ -2,8 +2,8 @@
 title: "Weather App"
 excerpt: "A web application to display the weather using Javascript, HTML and
   CSS."
-coverImage: "/assets/blog/wireshark/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
+coverImage: "/assets/blog/Weather app/weatherapp-cover.jpeg"
+date: "2023-02-05T05:35:07.322Z"
 author:
   name: Tom Montgomery
   picture: "/assets/blog/authors/jj.jpeg"

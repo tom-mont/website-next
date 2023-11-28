@@ -1,8 +1,8 @@
 ---
 title: "Wireshark Packet Capture"
 excerpt: "A first hack at networking"
-coverImage: "/assets/blog/wireshark/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
+coverImage: "/assets/blog/wireshark/wireshark-cover.jpg"
+date: "2022-11-28T05:35:07.322Z"
 author:
   name: Tom Montgomery
   picture: "/assets/blog/authors/jj.jpeg"
