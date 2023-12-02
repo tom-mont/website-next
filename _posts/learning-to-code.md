@@ -8,6 +8,7 @@ author:
   picture: "/assets/blog/authors/jj.jpeg"
 ogImage:
   url: "/assets/blog/wireshark/cover.jpg"
+tags: ["Learnings"]
 ---
 
 At this point, I am fully engrossed in the world of tech and software development. My apologies if I am using misnomers - as with any self-respecting field of work, you need complicated jargon that is easy to get wrong.

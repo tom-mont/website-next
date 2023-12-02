@@ -19,7 +19,7 @@ export default function Index({ allPosts }: Props) {
     <>
       <Layout>
         <Head>
-          <title>{`Tom Montgomery's blog`}</title>
+          <title>{`Tom Montgomery's blog.`}</title>
         </Head>
         <Container>
           <Intro />
@@ -48,6 +48,7 @@ export const getStaticProps = async () => {
     "author",
     "coverImage",
     "excerpt",
+    "tags",
   ]);
 
   return {

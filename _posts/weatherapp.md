@@ -9,6 +9,7 @@ author:
   picture: "/assets/blog/authors/jj.jpeg"
 ogImage:
   url: "/assets/blog/wireshark/cover.jpg"
+tags: ["Learnings"]
 ---
 
 Recently I have been interested in solutions engineer style roles. These are appealing as they are client-facing and require one to work with clients in order to scope a solution. However, they are also technical and demand the ability to be able to code. Generally, this coding is slanted to the front-end with Javascript, HTML and CSS. I wanted to use this opportunity to sharpen my skills in this regard.

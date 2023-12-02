@@ -8,6 +8,7 @@ author:
   picture: "/assets/blog/authors/jj.jpeg"
 ogImage:
   url: "/assets/blog/wireshark/cover.jpg"
+tags: ["Learnings"]
 ---
 
 Presently I find myself working as a project lead at an insurtech startup. The environment is dynamic and the exposure I receive is incredible.

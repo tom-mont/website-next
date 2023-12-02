@@ -11,6 +11,7 @@ type Props = {
   excerpt: string;
   author: Author;
   slug: string;
+  tags?: string[];
 };
 
 const PostPreview = ({
@@ -20,30 +21,35 @@ const PostPreview = ({
   excerpt,
   author,
   slug,
+  tags,
 }: Props) => {
   return (
-    <div>
-      <div className="mb-5">
-        <CoverImage slug={slug} title={title} src={coverImage} />
-      </div>
-      <h3 className="text-3xl mb-3 font-bold leading-snug">
-        <Link
-          as={`/posts/${slug}`}
-          href="/posts/[slug]"
-          className="hover:underline"
-        >
-          {title}
-        </Link>
-      </h3>
-      <h4 className="text-xl leading-relaxed mb-5">
-        <i>{excerpt}</i>
-      </h4>
-      <div className="text-lg mb-4">
-        <DateFormatter dateString={date} />
-      </div>
+    console.log("tags", tags),
+    (
+      <div>
+        <div className="mb-5">
+          <CoverImage slug={slug} title={title} src={coverImage} />
+        </div>
+        <h3 className="text-3xl mb-3 font-bold leading-snug">
+          <Link
+            as={`/posts/${slug}`}
+            href="/posts/[slug]"
+            className="hover:underline"
+          >
+            {title}
+          </Link>
+        </h3>
+        <h4 className="text-xl leading-relaxed mb-5">{tags}</h4>
+        <h4 className="text-xl leading-relaxed mb-5">
+          <i>{excerpt}</i>
+        </h4>
+        <div className="text-lg mb-4">
+          <DateFormatter dateString={date} />
+        </div>
 
-      <Avatar name={author.name} />
-    </div>
+        <Avatar name={author.name} />
+      </div>
+    )
   );
 };
 

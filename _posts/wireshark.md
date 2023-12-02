@@ -8,6 +8,7 @@ author:
   picture: "/assets/blog/authors/jj.jpeg"
 ogImage:
   url: "/assets/blog/wireshark/cover.jpg"
+tags: ["Learnings"]
 ---
 
 I have begun venturing into the exciting world of cyber security, and have recently received my COMPTIA Network+ certification. Of course, there is no better way to get to know something than through experience and hence I wanted to go through a packet capture in order to test my understanding of networking (and perhaps teach the reader a thing or two).

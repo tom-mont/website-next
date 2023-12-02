@@ -8,6 +8,7 @@ author:
   picture: "/assets/blog/authors/jj.jpeg"
 ogImage:
   url: "/assets/blog/wireshark/cover.jpg"
+tags: ["Learnings"]
 ---
 
 APIs are all about communication. An API allows for different software
