@@ -39,10 +39,10 @@ const PostPreview = ({
             {title}
           </Link>
         </h3>
-        <h4 className="text-xl leading-relaxed mb-5">{tags}</h4>
         <h4 className="text-xl leading-relaxed mb-5">
           <i>{excerpt}</i>
         </h4>
+        <h4 className="text-l leading-relaxed mb-5">{tags}</h4>
         <div className="text-lg mb-4">
           <DateFormatter dateString={date} />
         </div>
