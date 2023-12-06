@@ -2,7 +2,7 @@
 title: "What is an API?"
 excerpt: "An introduction to the Application Programming Interface"
 coverImage: "/assets/blog/api-intro/api-intro-cover.jpg"
-date: "2023-01-29T05:35:07.322Z"
+date: "2023-01-30T05:35:07.322Z"
 author:
   name: Tom Montgomery
   picture: "/assets/blog/authors/jj.jpeg"
