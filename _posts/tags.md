@@ -40,3 +40,15 @@ The beep boop has now instructed me to modify the blog post component to display
 I have encountered the `map` function before and am aware that it will _do something_ to each element in an array (which makes sense, as we added our tag in an array). I made a split-second design decision that I would rather add the tag to the post preview (which appears on my home page) as opposed to within the blog post itself.
 
 I navigate to to the `post-preview.tsx` file in order to figure out how to get this pesky tag to display. This also feels a lot like I am going to run into some Typescript, so let's see how I get on!
+
+## Scrap it
+
+As so often happens with chatGPT, the above line of code sent me in circles and I will (mercifully) save the details thereof from the reader. To summarise my findings (using brevity which betrays the frustration of the wild goose chase chatGPT sent me on), I needed to update the `post-preview` type to include `tags` as a prop. A simple line of HTML then added the wording to the display.
+
+The final step, proving a bit of a spanner in the works, was to include `tags` in the `getStaticProps` function from the `index.html` page.
+
+## Displaying my tags!
+
+I enjoyed this small sojourn into the front-end. It was cool to get to play around with `Next.js` - I have always know it looks really cool but to be able to mess around with the components and actually understand how they interact was interesting. I definitely think the front-end has more to offer me than meets the eye!
+
+As you can (hopefully) tell by the preview to this post, the addition of tags onto my blog posts was a success!

@@ -11,6 +11,7 @@ type Props = {
   excerpt: string;
   author: Author;
   slug: string;
+  tags?: string[];
 };
 
 const HeroPost = ({
@@ -20,6 +21,7 @@ const HeroPost = ({
   excerpt,
   author,
   slug,
+  tags,
 }: Props) => {
   return (
     <section>
@@ -39,6 +41,21 @@ const HeroPost = ({
           </h3>
           <p className="text-2xl leading-relaxed mb-4">
             <i>{excerpt}</i>
+          </p>
+        </div>
+        <div>
+          <p
+            style={{
+              backgroundColor: "#e9e5d5",
+              padding: "6px",
+              border: "1px solid #ccc",
+              marginBottom: "9px",
+              display: "inline-block",
+              borderRadius: "8px",
+            }}
+            className="text-2xl leading-relaxed mb-4"
+          >
+            {tags}
           </p>
         </div>
         <div>

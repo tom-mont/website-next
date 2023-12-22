@@ -9,9 +9,10 @@ type Props = {
   coverImage: string;
   date: string;
   author: Author;
+  tags: string[];
 };
 
-const PostHeader = ({ title, coverImage, date, author }: Props) => {
+const PostHeader = ({ title, coverImage, date, author, tags }: Props) => {
   return (
     <>
       <PostTitle>{title}</PostTitle>
@@ -24,6 +25,21 @@ const PostHeader = ({ title, coverImage, date, author }: Props) => {
       <div className="max-w-2xl mx-auto">
         <div className="block md:hidden mb-6">
           <Avatar name={author.name} />
+        </div>
+        <div>
+          <p
+            style={{
+              backgroundColor: "#e9e5d5",
+              padding: "6px",
+              border: "1px solid #ccc",
+              marginBottom: "9px",
+              display: "inline-block",
+              borderRadius: "8px",
+            }}
+            className="text-xl leading-relaxed mb-4"
+          >
+            {tags}
+          </p>
         </div>
         <div className="mb-6 text-lg">
           <DateFormatter dateString={date} />

@@ -24,32 +24,41 @@ const PostPreview = ({
   tags,
 }: Props) => {
   return (
-    console.log("tags", tags),
-    (
-      <div>
-        <div className="mb-5">
-          <CoverImage slug={slug} title={title} src={coverImage} />
-        </div>
-        <h3 className="text-3xl mb-3 font-bold leading-snug">
-          <Link
-            as={`/posts/${slug}`}
-            href="/posts/[slug]"
-            className="hover:underline"
-          >
-            {title}
-          </Link>
-        </h3>
-        <h4 className="text-xl leading-relaxed mb-5">
-          <i>{excerpt}</i>
-        </h4>
-        <h4 className="text-l leading-relaxed mb-5">{tags}</h4>
-        <div className="text-lg mb-4">
-          <DateFormatter dateString={date} />
-        </div>
-
-        <Avatar name={author.name} />
+    <div>
+      <div className="mb-5">
+        <CoverImage slug={slug} title={title} src={coverImage} />
       </div>
-    )
+      <h3 className="text-3xl mb-3 font-bold leading-snug">
+        <Link
+          as={`/posts/${slug}`}
+          href="/posts/[slug]"
+          className="hover:underline"
+        >
+          {title}
+        </Link>
+      </h3>
+      <h4 className="text-xl leading-relaxed mb-5">
+        <i>{excerpt}</i>
+      </h4>
+      <h4
+        style={{
+          backgroundColor: "#e9e5d5",
+          padding: "6px",
+          border: "1px solid #ccc",
+          marginBottom: "9px",
+          display: "inline-block",
+          borderRadius: "8px",
+        }}
+        className="text-l leading-relaxed mb-5"
+      >
+        {tags}
+      </h4>
+      <div className="text-lg mb-4">
+        <DateFormatter dateString={date} />
+      </div>
+
+      <Avatar name={author.name} />
+    </div>
   );
 };
 

@@ -11,3 +11,9 @@ body {
   color: #dc143cbe;
   /*font-family: "Bodoni Moda", serif;*/
 }
+
+.box {
+  background-color: #f0f0f0; /* Background color of the box */
+  padding: 10px; /* Add padding for spacing inside the box */
+  border: 1px solid #ccc; /* Optional: Add a border for a visual separation */
+}
