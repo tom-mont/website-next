@@ -11,7 +11,7 @@ ogImage:
 tags: ["Learnings"]
 ---
 
-This post is a reaction to the article titled [Understanding Prototypal Inheritance In JavaScript](https://dev.to/lawrence_eagles/understanding-prototypal-inheritance-in-JavaScript-4f31#chp-2) by Lawrence Eagles.
+This post is a reaction to the article titled (Understanding Prototypal Inheritance In JavaScript)[https://dev.to/lawrence_eagles/understanding-prototypal-inheritance-in-JavaScript-4f31#chp-2] by Lawrence Eagles.
 
 ## First impressions
 
