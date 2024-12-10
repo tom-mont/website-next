@@ -1,8 +1,8 @@
 ---
 title: "Kafka is a writer"
 excerpt: "Looking at streaming"
-coverImage: "/assets/blog/proces-github/process-github.jpg"
-date: "2024-12-09T05:35:07.322Z"
+coverImage: "/assets/blog/process-github/process-github-cover.jpg"
+date: "2024-12-10T05:35:07.322Z"
 author:
   name: Tom Montgomery
   picture: "/assets/blog/authors/jj.jpeg"
@@ -27,9 +27,7 @@ Close attention was paid by the creator of the video (whose name I am unble to s
 
 In the `main.py` script:
 
-```python
-json.loads(event.data)
-```
+```json.loads(event.data)```
 
 turned the json blob into a python dictionary. The use of this is self-evident and clearly a good first-step in any data processing.
 
@@ -61,4 +59,4 @@ An example of this would be in the `main.py` script when setting the extra confi
 
 This is telling Kafka to wait 200ms before sending a batch. This seems ludicrous - I am using Kafka for realtime streaming in the first place, why would I want to wait for a batch? 
 
-The answer seems to be that real real-time doesn't really exist for almost all uses. In this case, lingering for 200ms allows more events to be included in a batch. This means we are being more efficient with our resources - we pay for compute resources and will want to maximise the number of events we are processing efficiently. 
+The answer seems to be that real real-time doesn't really exist for almost all uses. In this case, lingering for 200ms allows more events to be included in a batch. This means we are being more efficient with our resources - we pay for compute resources. This is where the tradeoff emerges - we are using Kafka to unlock real-time streaming. But we can improve our efficiency by moving slightly away from real real-time. It is an interesting thought and one which is embedded into the foundation of software and data engineering.
