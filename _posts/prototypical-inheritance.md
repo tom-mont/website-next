@@ -11,7 +11,7 @@ ogImage:
 tags: ["Learnings"]
 ---
 
-This post is a reaction to the article titled (Understanding Prototypal Inheritance In JavaScript)[https://dev.to/lawrence_eagles/understanding-prototypal-inheritance-in-JavaScript-4f31#chp-2] by Lawrence Eagles.
+This post is a reaction to the article titled [Understanding Prototypal Inheritance In JavaScript](https://dev.to/lawrence_eagles/understanding-prototypal-inheritance-in-JavaScript-4f31#chp-2) by Lawrence Eagles.
 
 ## First impressions
 
@@ -29,9 +29,9 @@ What was also thrilling was the notion that an array, for instance, is also a da
 
 A common refrain in the article which excited and scared me was the ominous `// NEVER DO THIS IN REAL-LIFE. ONLY FOR DEMONSTRATION PURPOSE` comment left after each use of the `__proto__` method. Like any good tinkerer, I simply had to investigate this insidious method (and - eventually - figure out the correct way of assigning a prototype to an object. Boring.)
 
-The linked article takes the reader to the (Mozilla developer docs)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto]. It’s always a good reminder that JavaSccript is the programming language for the internet and all the references to browsers in this page is a stark reminder.
+The linked article takes the reader to the [Mozilla developer docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto). It’s always a good reminder that JavaSccript is the programming language for the internet and all the references to browsers in this page is a stark reminder.
 
-![](/assets/blog/prototypical-inheritance/mozilla-developer-docs.png)
+![](public/assets/blog/prototypical-inheritance/mozilla-developer-docs.png)
 
 The above warning is also fun. Nothing like a hazard sign in a big red box to make you want to run that exact code.
 
