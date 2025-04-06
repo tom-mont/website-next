@@ -1,7 +1,7 @@
 ---
 title: "Written in Rust"
 excerpt: "What's all the hype about?"
-coverImage: "/assets/blog/flink-starter/squirrles.jpg"
+coverImage: "/assets/blog/tomm_cli/rust-cover.jpg"
 date: "2025-04-05T05:35:07.322Z"
 author:
   name: Tom Montgomery
